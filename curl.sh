@@ -4,6 +4,6 @@ set -e
 
 echo "$(date) - Start"
 
-curl $OPTIONS
+curl -H "Authorization Bearer $TOKEN" $OPTIONS
 
 echo "$(date) End"
